@@ -4,8 +4,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import javax.swing.text.TabExpander;
-
 import application.Main;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -42,7 +40,7 @@ public class DepartmentListController implements Initializable {
 		System.out.println("onBtNewAction");
 	}
 
-	public void setService(DepartmentService service) {
+	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
 
